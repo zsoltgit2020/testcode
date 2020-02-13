@@ -62,10 +62,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/api/test/SaveTestWork",
+					"raw": "https://localhost:44319/api/test/SaveTestWork",
+					"protocol": "https",
 					"host": [
-						"{{url}}"
+						"localhost"
 					],
+					"port": "44319",
 					"path": [
 						"api",
 						"test",
@@ -88,12 +90,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://localhost:44319/api/test/GetTestCsv?date=2020.02.12",
-					"protocol": "https",
+					"raw": "{{url}}/api/test/GetTestCsv?date=2020.02.13",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "44319",
 					"path": [
 						"api",
 						"test",
@@ -102,7 +102,7 @@
 					"query": [
 						{
 							"key": "date",
-							"value": "2020.02.12"
+							"value": "2020.02.13"
 						}
 					]
 				}
@@ -134,7 +134,7 @@
 	],
 	"variable": [
 		{
-			"id": "ef6f62ba-9a4e-4c46-bcb1-196263b7f164",
+			"id": "c961ebae-677f-46bd-9814-be389ba6258f",
 			"key": "rand",
 			"value": "",
 			"type": "string"
