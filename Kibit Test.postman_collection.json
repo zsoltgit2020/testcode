@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "901ddd90-8364-4e45-844d-2307ee0a22e6",
+		"name": "Kibit Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Message Que",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Key\": \"asd1fggdfgdf\",\r\n    \"Email\": \"test@test.net\",\r\n    \"Attributes\": [\"1\", \"2\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/test/PostToMessageQueue",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"test",
+						"PostToMessageQueue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostJson",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Key\": \"asd1fg\",\r\n    \"Email\": \"test@test.net3\",\r\n    \"Attributes\": [\"9\", \"10\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/test/SaveTestWork",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"test",
+						"SaveTestWork"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTestCsv",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44319/api/test/GetTestCsv?date=2020.02.12",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44319",
+					"path": [
+						"api",
+						"test",
+						"GetTestCsv"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020.02.12"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0d740e71-2bcc-412a-98c6-384a7f6f42d7",
+				"type": "text/javascript",
+				"exec": [
+					"pm.environment.set(\"rand\", _.random(-1000000,9999999));"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f479c3eb-6637-4310-b772-c73dcec3d8c6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "ef6f62ba-9a4e-4c46-bcb1-196263b7f164",
+			"key": "rand",
+			"value": "",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

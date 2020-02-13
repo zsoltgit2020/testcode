@@ -1,0 +1,14 @@
+c:\Project\NetCoreTest\NetCoreTest\bin\Debug\netcoreapp2.2\NetCoreTest.deps.json
+c:\Project\NetCoreTest\NetCoreTest\bin\Debug\netcoreapp2.2\NetCoreTest.runtimeconfig.json
+c:\Project\NetCoreTest\NetCoreTest\bin\Debug\netcoreapp2.2\NetCoreTest.runtimeconfig.dev.json
+c:\Project\NetCoreTest\NetCoreTest\bin\Debug\netcoreapp2.2\NetCoreTest.dll
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.csprojAssemblyReference.cache
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.csproj.CoreCompileInputs.cache
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.RazorAssemblyInfo.cache
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.RazorAssemblyInfo.cs
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.AssemblyInfoInputs.cache
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.AssemblyInfo.cs
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.RazorTargetAssemblyInfo.cache
+c:\Project\NetCoreTest\NetCoreTest\bin\Debug\netcoreapp2.2\NetCoreTest.pdb
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.dll
+c:\Project\NetCoreTest\NetCoreTest\obj\Debug\netcoreapp2.2\NetCoreTest.pdb
